@@ -16,3 +16,8 @@ img {
     display: block;
     width: 100%;
 }
+
+.comtainer {
+    max-width: 980px;
+    margin: auto;
+}
