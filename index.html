@@ -13,12 +13,15 @@
         <nav class="header-nav">
           <div class="container">
             <div class="header-nav__logo">Stickerz</div>
+            <label class="burger-icon" for="burger-checkbox">☰</label>
+            <input type="checkbox" id="burger-checkbox">
             <div class="header-nav__menu">
               <a href="#home" class="header-nav__menu-item">Home</a>
               <a href="#products" class="header-nav__menu-item">Products</a>
               <a href="#contacts" class="header-nav__menu-item">Contacts</a>
               <a href="cart.html" class="header-nav__menu-item">
                 Cart</a>
+            <div class="clock"></div>
             </div>
           </div>
         </nav>
@@ -28,93 +31,11 @@
         </div>
       </header>
       <main>
+        <div class="main-products-carousel container">
+        </div>
         <section class="main-products container">
           <h2 id="products" class="main-products__h2">Products</h2>
           <div class="main-products__list">
-            <article class="product-card">
-              <img
-                class="product-card__image"
-                src="img/baby-yoda.svg"
-                alt="Baby Yoda"
-              />
-              <h3 class="product-card__h3">Baby Yoda</h3>
-              <p class="product-card__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-                fuga autem possimus eveniet facere, non minus magnam obcaecati,
-                tenetur recusandae, corporis itaque suscipit. Vero illo nulla
-                asperiores laudantium tempore porro!
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy
-                </button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img
-                class="product-card__image"
-                src="img/banana.svg"
-                alt="Banana"
-              />
-              <h3 class="product-card__h3">Banana</h3>
-              <p class="product-card__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-                fuga autem possimus eveniet facere, non minus magnam obcaecati,
-                tenetur recusandae, corporis itaque suscipit. Vero illo nulla
-                asperiores laudantium tempore porro!
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy
-                </button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img class="product-card__image" src="img/girl.svg" alt="Girl" />
-              <h3 class="product-card__h3">Girl</h3>
-              <p class="product-card__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-                fuga autem possimus eveniet facere, non minus magnam obcaecati,
-                tenetur recusandae, corporis itaque suscipit. Vero illo nulla
-                asperiores laudantium tempore porro!
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy
-                </button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img
-                class="product-card__image"
-                src="img/viking.svg"
-                alt="Viking"
-              />
-              <h3 class="product-card__h3">Viking</h3>
-              <p class="product-card__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-                fuga autem possimus eveniet facere, non minus magnam obcaecati,
-                tenetur recusandae, corporis itaque suscipit. Vero illo nulla
-                asperiores laudantium tempore porro!
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy
-                </button>
-              </div>
-            </article>
           </div>
         </section>
       </main>
@@ -126,5 +47,8 @@
           <button class="button button-card">Submit</button>
         </form>
       </footer>
+      <script src = 'js/clock.js'></script>
+      <script src = 'js/product-list.js'></script>
+      <script src = 'js/products-carousel.js'></script>
 </body>
 </html>
