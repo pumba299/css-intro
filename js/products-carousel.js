@@ -20,4 +20,6 @@
 
     setInterval(nextSlide, 3000);
 
+    renderCarousel();
+
 })();
